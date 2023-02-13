@@ -1,5 +1,2 @@
-Traceback (most recent call last):
-CCBBCBAABCCCBABCBCAAAACABBACCCCACAABCBBACACAACABCBCCBAABCABBBCCAABBCBBCACABCAAACACABACBCCBAACBCBCAAC
-  File "C:\Users\SSAFY\PycharmProjects\pythonProject\È¸¹®2.py", line 9, in <module>
-    t = int(input())
-ValueError: invalid literal for int() with base 10: 'ACBAAAACCACCCBAACAAABACACCABCBCBABBBACBABCAACCBCCACBCBACACACBCACCABACCBCCBAAAAABBACBACACBCCBABCAACBB'
+['(', ')', '(', '(', '(', '(', ')', '(', ')', ')', '(', '(', ')', ')', '(', ')', ')', ')', '(', '(', ')', ')']
+['(', '(', '(', '(', ')', '(', '(', ')', '(', ')', ')', ')', '(', '(', ')', ')', '(', ')', ')', ')', '(', '(', ')', '(', ')', ')']

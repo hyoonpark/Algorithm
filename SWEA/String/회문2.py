@@ -3,6 +3,7 @@ for _ in range(10):
     chr_lst = ['' for _ in range(N)]
     for n in range(N):
         chr_lst[n] = input()
+    print(chr_lst)
     for i in range(N):
         for y in range(N-M+1):
             char1 = ''
