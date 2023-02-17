@@ -1,15 +1,16 @@
-arr = [1,2,3]
-N = 3
+for tc in range(1, int(input()) + 1):
+    w_lst = input()
+    stk = []
 
-def perm(idx):
-
-    if idx == N:
-        print(arr)
-        return
-
-    for i in range(idx, N):
-        arr[idx], arr[i] = arr[i], arr[idx]
-        perm(idx+1)
-        arr[idx], arr[i] = arr[i], arr[idx]
-
-perm(0)
+    for i in w_lst:
+        if i in '({':
+            stk.append(i)
+        elif i in ')}':
+            if stk and i == ')' and stk[-1] == '(':
+                stk.pop()
+            elif stk and i == '}' and stk[-1] == '{':
+                stk.pop()
+    if not len(stk):
+        print(f'#{tc} {1}')
+    else:
+        print(f'#{tc} {0}')
