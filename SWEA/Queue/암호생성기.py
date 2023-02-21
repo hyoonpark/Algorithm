@@ -1,6 +1,6 @@
 for _ in range(10):
     tc = int(input())
-    pw_lst = list(map(int, input().split()))    #
+    pw_lst = list(map(int, input().split()))    # 암호 만들 8자리 숫자
     if min(pw_lst)%15:
         cir = min(pw_lst)//15
     else:
