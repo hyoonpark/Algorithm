@@ -1,4 +1,10 @@
-Traceback (most recent call last):
-  File "/Users/parkhayoon/Desktop/HY/Algorithm/SWEA/SW Apply/SEA_1220_Magnetic.py", line 12, in <module>
-    while mag_t[i][j] != 2 and j != 100:
-IndexError: list index out of range
+#1 471
+#2 446
+#3 469
+#4 481
+#5 481
+#6 501
+#7 488
+#8 476
+#9 464
+#10 490
