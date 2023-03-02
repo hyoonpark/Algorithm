@@ -30,7 +30,7 @@ def Check(arr, arr_t):
     else:
         cnt += 1
 
-    if cnt == 3:
+    if cnt >= 3:
         return True
 
 
