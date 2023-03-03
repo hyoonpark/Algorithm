@@ -6,15 +6,15 @@ def check():
     for i in range(n):
         for j in range(n):
             if omok[i][j] == 'o':
-                for dir in range(4):
+                for k in range(4):
                     nx = i
                     ny = j
                     cnt = 0
 
                     while 0 <= nx < n and 0 <= ny < n and omok[nx][ny] == 'o':
                         cnt += 1
-                        nx += dx[dir]
-                        ny += dy[dir]
+                        nx += dx[k]
+                        ny += dy[k]
                     if cnt >= 5:
                         return 'YES'
     return 'NO'
